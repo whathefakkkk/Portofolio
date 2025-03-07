@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portofolio</title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+	<div class="navbar">
+		<div class="navbar-logo">Sylvister.</div>
+
+		<div class="navbar-nav">
+			<a href="#home">Home</a>
+			<a href="#about">About Me</a>
+			<a href="#services">Services</a>
+			<a href="#project">Projects</a>
+			<a href="#contact">Contact</a>
+		</div>
+
+		<div class="navbar-extra">
+			<a href="#" id="hamburger-menu"><img src="./assets/icon/Putih/menu.svg" alt="menu icon"></a>
+		</div>
+	</div>
+
+	<section id="home" class="hero">
+		<div class="profile">
+			<img src="./assets/img/63.jpeg" class="img-profile" alt="Juan Sylvister">
+			<h1>Juan Sylvister</h1>
+			<h3>Web Dev | Freelance</h3>
+		</div>
+	</section>
+	
+	<section id="about" class="about">
+		<h2>About Me</h2>
+
+		<div class="row">
+			<div class="about-img"><img src="./assets/img/62.jpg" alt="Tentang saya"></div>
+
+			<div class="content">
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsa minus dolorum totam, in incidunt dolores magnam ea repellat veniam?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, corrupti excepturi magnam incidunt possimus officia sequi repellat est voluptatum voluptates maiores placeat ab veritatis temporibus pariatur quas magni nemo beatae!</p>
+				<p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Voluptate, ea.</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="services" class="services">
+		<h2>Services</h2>
+
+		<div class="row">
+			<div class="card">
+				<h3>UI/UX Design</h3>
+				<div class="icons"><img src="./assets/icon/Putih/figma.svg" alt="figma icon"></div>
+				<div class="content">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, dolorum nihil omnis, et officia temporibus!</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<h3>Web Development</h3>
+				<div class="icons"><img src="./assets/icon/Putih/code.svg" alt="code icon"></div>
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aspernatur, provident eius pariatur aliquam, nemo.</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<h3>Web Responsif</h3>
+				<div class="icons"><img src="./assets/icon/Putih/monitor.svg" alt="monitor icon"></div>
+				<div class="content">
+					<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Saepe, fugit nesciunt aliquid, cum dolorum quibusdam.</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="project" class="project">
+		<h2>My Project</h2>
+
+		<div class="container">
+			<div class="project-box">
+				<h3>Previous Project</h3>
+				<div class="project-list" onclick="openModal('project1')">
+					<strong>Portofolio Website</strong> - Juan Sylvister
+				</div>
+				<div class="project-list" onclick="openModal('project2')">
+					<strong>Coming Soon</strong> . . .
+				</div>
+				<div class="project-list" onclick="openModal('project3')">
+					<strong>Coming Soon</strong> . . .
+				</div>
+			</div>
+
+			<div class="project-box">
+				<h3>Current Project</h3>
+				<div class="project-list" onclick="openModal('project4')">
+					<strong>Coming Soon</strong> . . . 
+				</div>
+				<div class="project-list" onclick="openModal('project5')">
+					<strong>Coming Soon</strong> . . . 
+				</div>
+				<div class="project-list" onclick="openModal('project6')">
+					<strong>Coming Soon</strong> . . . 
+				</div>
+			</div>
+
+		</div>
+
+		
+	</section>
+
+	<section id="contact" class="contact">
+		<div class="contact-container">
+			<div class="socials">
+				<h2>Contact Me</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex totam, perspiciatis voluptatibus, sapiente vitae eveniet.</p>
+				<div class="icons">
+					<a href="https://www.instagram.com/xiiahhsyuu?igsh=NzZ2ZjZmbjdidm5o" target="_blank" class="icons"><img src="./assets/icon/Putih/instagram.svg" alt="instagram icon"></a>
+					<a href="https://www.facebook.com/share/1AvzsRXnWA" target="_blank" class="icons"><img src="./assets/icon/Putih/facebook.svg" alt="facebook icon"></a>
+					<a href="https://github.com/whathefakkkk" target="_blank" class="icons"><img src="./assets/icon/Putih/github.svg" alt="github icon"></a>
+					<a href="https://www.linkedin.com/in/j-sylvister-5846b3292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="icons"><img src="./assets/icon/Putih/linkedin.svg" alt="linkedin icon"></a>
+				</div>
+			</div>
+			<div class="message">
+				<form method="post" action="#" autocomplete="off">
+					<div class="input-box">
+						<img src="./assets/icon/Putih/mail.svg" alt="email icon">
+						<input type="email" name="temail" placeholder="What's Your Email?">
+					</div>
+					<div class="input-box">
+						<img src="./assets/icon/Putih/user.svg" alt="user icon">
+						<input type="text" name="tname" placeholder="What's Your Name?">
+					</div>
+					<div class="input-message">
+						<textarea type="text" name="tmessage" placeholder="What's Your Message?" rows="4" cols="50"></textarea>
+					</div>
+					
+					<button type="submit" class="btn">Submit</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="credit">
+			<p>Created by <a href="">Juan Sylvister</a>. | &copy; 2025</p>
+		</div>
+	</footer>
+
+	<!-- modal -->
+	<!-- Previous project -->
+	<div id="project1" class="modal">
+		<div class="modal-container" onclick="closeModal('project1')">
+			<span id="close-btn" class="close">&times;</span>
+			<div class="modal-content">
+				<h2>Portofolio Website</h2>
+				<p><strong>Client : </strong>Juan Sylvister</p>
+				<p><strong>Duration : </strong>Feb 2025 - Feb 2025</p>
+				<p><strong>Price : </strong>Rp. </p>
+				<p><strong>Description : </strong>Portofolio interaktif dengan animasi dan desain minimalis.</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="project2" class="modal">
+		<div class="modal-container" onclick="closeModal('project2')">
+			<span id="close-btn" class="close">&times;</span>
+			<div class="modal-content">
+				<h2>Coming Soon</h2>
+				<p><strong>Client : </strong>-</p>
+				<p><strong>Duration : </strong>-</p>
+				<p><strong>Price : </strong>Rp. -</p>
+				<p><strong>Description : </strong>-</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="project3" class="modal">
+		<div class="modal-container" onclick="closeModal('project3')">
+			<span id="close-btn" class="close">&times;</span>
+			<div class="modal-content">
+				<h2>Coming Soon</h2>
+				<p><strong>Client : </strong>-</p>
+				<p><strong>Duration : </strong>-</p>
+				<p><strong>Price : </strong>Rp. -</p>
+				<p><strong>Description : </strong>-</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- current project -->
+	<div id="project4" class="modal">
+		<div class="modal-container" onclick="closeModal('project4')">
+			<span id="close-btn" class="close">&times;</span>
+			<div class="modal-content">
+				<h2>Coming Soon</h2>
+				<p><strong>Client : </strong>-</p>
+				<p><strong>Duration : </strong>-</p>
+				<p><strong>Description : </strong>-</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="project5" class="modal">
+		<div class="modal-container" onclick="closeModal('project5')">
+			<span id="close-btn" class="close">&times;</span>
+			<div class="modal-content">
+				<h2>Coming Soon</h2>
+				<p><strong>Client : </strong>-</p>
+				<p><strong>Duration : </strong>-</p>
+				<p><strong>Description : </strong>-</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="project5" class="modal">
+		<div class="modal-container" onclick="closeModal('project5')">
+			<span id="close-btn" class="close">&times;</span>
+			<div class="modal-content">
+				<h2>Coming Soon</h2>
+				<p><strong>Client : </strong>-</p>
+				<p><strong>Duration : </strong>-</p>
+				<p><strong>Description : </strong>-</p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="./js/script.js"></script>
+</body>
+</html>
