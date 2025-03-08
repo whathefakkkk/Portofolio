@@ -241,6 +241,7 @@ body {
 	transition: filter 0.3s ease;
 }
 .contact .socials img:hover {
+	transform: translate3d(0, -.125rem, 0);
 	filter: brightness(0) saturate(100%) invert(84%) sepia(61%) saturate(385%) hue-rotate(1deg) brightness(97%) contrast(94%);
 }
 .contact .message {
@@ -297,6 +298,7 @@ footer .credit p, .credit a {
 	color: var(--bg);
 	font-weight: 700;
 }
+/*modal section*/
 .modal {
 	display: none;
 	position: fixed;
